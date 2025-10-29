@@ -46,8 +46,8 @@ func main() {
 	fmt.Println("🚀 开始发送交易...")
 
 	// 注意：实际使用时请替换为您自己的私钥和接收地址
-	privateKeyHex := "11fd99fad093d5c8eab5f5ab3af1e263d7245df7ebb10a19954ef154fd3d6ac7"
-	recipientAddress := "0x4558fa23D70a875b78C295f885AD718D8B6f7110"
+	privateKeyHex := ""
+	recipientAddress := ""
 
 	// 解析私钥，将私钥从十六进制字符串转换为ECDSA私钥
 	privateKey, err := crypto.HexToECDSA(privateKeyHex)
